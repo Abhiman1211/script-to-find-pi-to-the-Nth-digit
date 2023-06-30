@@ -12,9 +12,10 @@ void printValueOfPi(int N)
 // Driver Code
 int main()
 {
-    int N;
-    cout<<"Enter the value of Nth place u want pi values: ";
-    cin>> N;
+	int N;
+	cout << "Enter the value of Nth place u want pi values: ";
+	cin >> N;
 	printValueOfPi(N);
+	cout << "The value of pi upto " << N << "th place is: ";
 	return 0;
 }
